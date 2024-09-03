@@ -25,7 +25,7 @@ struct ContentView: View {
     var body: some View {
         NavigationStack {
             Form {
-                Section("Amount and number of people") {
+                Section {
                     TextField("", value: $amount, format: .currency(code: Locale.current.currency?.identifier ?? "INR"))
                         .keyboardType(.decimalPad)
                         .focused($isAmountTextFieldFocued)
