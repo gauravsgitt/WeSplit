@@ -19,6 +19,7 @@
 		4A8372C32C81AC49000E8EF1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4A8372C52C81AC4B000E8EF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4A8372C82C81AC4B000E8EF1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4AF790B22C86F30F00ED3E1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +52,7 @@
 		4A8372C02C81AC49000E8EF1 /* WeSplit */ = {
 			isa = PBXGroup;
 			children = (
+				4AF790B22C86F30F00ED3E1E /* Info.plist */,
 				4A8372C12C81AC49000E8EF1 /* WeSplitApp.swift */,
 				4A8372C32C81AC49000E8EF1 /* ContentView.swift */,
 				4A8372C52C81AC4B000E8EF1 /* Assets.xcassets */,
@@ -275,6 +277,7 @@
 				DEVELOPMENT_TEAM = G6J26BAQQG;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WeSplit/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +307,7 @@
 				DEVELOPMENT_TEAM = G6J26BAQQG;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WeSplit/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
