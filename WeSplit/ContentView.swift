@@ -55,6 +55,7 @@ struct ContentView: View {
                 
                 Section("total amount for the check") {
                     Text(totalAmount, format: .currency(code: Locale.current.currency?.identifier ?? "INR"))
+                        .foregroundStyle(selectedTipPercentage == 0 ? .red : .black)
                 }
             }
             .navigationTitle("WeSplit")
